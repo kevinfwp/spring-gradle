@@ -10,4 +10,10 @@ tar 	=> 通过管道直接解压
 
 curl https://start.spring.io/starter.tgz -d dependencies=web,h2,jpa,thymeleaf -d language=java -d type=gradle-project -d baseDir=spring-project-dir-name | tar -xzvf -
 
+还可以使用gradle init初始化项目，不过这样初始化不会建立目录
+src/main/java/
+src/main/resources/
+需要自行建立 
+mkdir -p src/main/{java,resources}
+
 
