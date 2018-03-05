@@ -1,0 +1,13 @@
+curl https://start.spring.io/starter.tgz -d dependencies=web -d language=java -d type=gradle-project -d baseDir=spring-project-dir-name | tar -xzvf -
+
+使用curl从https://start.spring.io站点下载项目的结构，添加相关的依赖
+dependencies => 所需的依赖    => [web,h2,jpa,thymeleaf,mysql,...]
+language     => 所使用的语言  => [java,kotlin,groovy]
+type         => 项目类型      => [gradle-project,maven-project]
+baseDir      => 项目目录      
+
+tar 	=> 通过管道直接解压
+
+curl https://start.spring.io/starter.tgz -d dependencies=web,h2,jpa,thymeleaf -d language=java -d type=gradle-project -d baseDir=spring-project-dir-name | tar -xzvf -
+
+
