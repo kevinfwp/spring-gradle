@@ -1,0 +1,122 @@
+gradle tasks --all 常见命令
+
+# Application tasks
+-----------------
+=> bootRun - Run the project with support for auto-detecting main class and reloading static resources
+启动项目
+
+# Build tasks
+-----------
+=> assemble - Assembles the outputs of this project.
+
+
+=> bootRepackage - Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'
+
+=> build - Assembles and tests this project.
+构建项目
+
+=> buildDependents - Assembles and tests this project and all projects that depend on it.
+
+=> buildNeeded - Assembles and tests this project and all projects it depends on.
+
+=> classes - Assembles main classes.
+
+=> clean - Deletes the build directory.
+删除构建目录
+
+=> testClasses - Assembles test classes.
+
+=> jar - Assembles a jar archive containing the main classes.
+
+# Build Setup tasks
+-----------------
+=> init - Initializes a new Gradle build.
+初始化构建
+
+=> wrapper - Generates Gradle wrapper files.
+生成包装器
+
+# Documentation tasks
+-------------------
+=> javadoc - Generates Javadoc API documentation for the main source code.
+
+# Help tasks
+----------
+=> buildEnvironment - Displays all buildscript dependencies declared in root project 'Building_a_RESTful_Web_Service'.
+
+=> components - Displays the components produced by root project 'Building_a_RESTful_Web_Service'. [incubating]
+
+=> dependencies - Displays all dependencies declared in root project 'Building_a_RESTful_Web_Service'.
+
+=> dependencyInsight - Displays the insight into a specific dependency in root project 'Building_a_RESTful_Web_Service'.
+
+=> dependencyManagement - Displays the dependency management declared in root project 'Building_a_RESTful_Web_Service'.
+
+=> dependentComponents - Displays the dependent components of components in root project 'Building_a_RESTful_Web_Service'. [incubating]
+
+=> help - Displays a help message.
+
+=> model - Displays the configuration model of root project 'Building_a_RESTful_Web_Service'. [incubating]
+
+=> projects - Displays the sub-projects of root project 'Building_a_RESTful_Web_Service'.
+
+=> properties - Displays the properties of root project 'Building_a_RESTful_Web_Service'.
+
+=> tasks - Displays the tasks runnable from root project 'Building_a_RESTful_Web_Service'.
+
+# IDE tasks
+---------
+=> cleanEclipse - Cleans all Eclipse files.
+删除eclipse相关文件
+
+=> cleanIdea - Cleans IDEA project files (IML, IPR)
+删除IDEA相关文件
+
+=> eclipse - Generates all Eclipse files.
+生成eclipse相关文件
+
+=> idea - Generates IDEA project files (IML, IPR, IWS)
+市场IDEA相关文件
+
+# Verification tasks
+------------------
+=> check - Runs all checks.
+
+=> test - Runs the unit tests.
+
+# Other tasks
+-----------
+=> cleanEclipseClasspath
+
+=> cleanEclipseJdt
+
+=> cleanEclipseProject
+
+=> cleanIdeaModule
+
+=> cleanIdeaProject
+
+=> cleanIdeaWorkspace
+
+=> compileJava - Compiles main Java source.
+
+=> compileTestJava - Compiles test Java source.
+
+=> eclipseClasspath - Generates the Eclipse classpath file.
+
+=> eclipseJdt - Generates the Eclipse JDT settings file.
+
+=> eclipseProject - Generates the Eclipse project file.
+
+=> findMainClass
+
+=> ideaModule - Generates IDEA module files (IML)
+
+=> ideaProject - Generates IDEA project file (IPR)
+
+=> ideaWorkspace - Generates an IDEA workspace file (IWS)
+
+=> processResources - Processes main resources.
+
+=> processTestResources - Processes test resources.
+
