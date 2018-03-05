@@ -76,7 +76,7 @@ gradle tasks --all 常见命令
 生成eclipse相关文件
 
 => idea - Generates IDEA project files (IML, IPR, IWS)
-市场IDEA相关文件
+生成IDEA相关文件
 
 # Verification tasks
 ------------------
